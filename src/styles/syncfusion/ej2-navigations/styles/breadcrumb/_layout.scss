@@ -52,8 +52,7 @@
       .e-breadcrumb-text {
         @if $skin-name == 'FluentUI' {
           padding: 4px;
-        }
-        @else {
+        } @else {
           padding: $breadcrumb-padding;
         }
 
@@ -100,8 +99,7 @@
           @if $skin-name == 'FluentUI' {
             background-color: $content-bg-color-hover;
             color: $content-text-color-alt3;
-          }
-          @else {
+          } @else {
             text-decoration: underline;
           }
         }
@@ -110,8 +108,7 @@
           @if $skin-name == 'FluentUI' {
             border: 1px solid $border-alt;
             color: $content-text-color-alt1;
-          }
-          @else {
+          } @else {
             text-decoration: underline;
           }
         }
@@ -120,8 +117,7 @@
           @if $skin-name == 'FluentUI' {
             background-color: $content-bg-color-alt4;
             color: $content-text-color-alt3;
-          }
-          @else {
+          } @else {
             text-decoration: underline;
           }
         }
@@ -216,7 +212,7 @@
     }
 
     @if $breadcrumb-skin == 'bootstrap5' {
-      .e-icon-item  + .e-breadcrumb-separator {
+      .e-icon-item + .e-breadcrumb-separator {
         padding-left: $breadcrumb-icon-only-item-next-separator-padding-left;
       }
     }
@@ -341,9 +337,9 @@
       .e-breadcrumb-icon {
         display: flex;
         flex-grow: 1;
-        justify-content: end;
-     }
-   }
+        justify-content: flex-end;
+      }
+    }
 
     &.e-rtl.e-icon-right .e-breadcrumb-icon,
     &.e-rtl .e-icon-right .e-breadcrumb-icon {
@@ -392,8 +388,7 @@
       .e-breadcrumb-text {
         @if $skin-name == 'FluentUI' {
           padding: 8px;
-        }
-        @else {
+        } @else {
           padding: $breadcrumb-bigger-padding;
         }
 

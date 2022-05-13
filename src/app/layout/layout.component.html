@@ -1,0 +1,15 @@
+<div>Layout
+    <div>
+        Menu
+
+        <button mat-button [routerLink]="['/components']" routerLinkActive="mat-accent">
+            Components
+        </button>
+        <button mat-button [routerLink]="['/grid']" routerLinkActive="mat-accent">
+            Grid/TreeGrid
+        </button>
+        <button ejs-button  cssClass='e-btn e-control' (click)="showToast($event)">Show Toast</button>
+    </div>
+    <router-outlet></router-outlet>
+
+</div>
