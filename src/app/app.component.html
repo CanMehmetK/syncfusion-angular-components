@@ -1,31 +1,40 @@
+<div dir="ltr" class="min-h-screen flex">
+    <div class="flex-1 ...">
+        Left to Right
+        <div class="control-section">
+            <div class="col-lg-9 content-wrapper">
+                <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
+                    <div style="width: 250px;margin: 0 auto;">
+                        <ejs-combobox id='games'  #local [cssClass]='cssClass' [dataSource]='sportsData' [autofill]='true' [fields]='localFields' [placeholder]='localWaterMark'
+                                      [popupHeight]='height'></ejs-combobox>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<div class="control-section">
-    <div class="col-lg-9 content-wrapper">
-        <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
-            <div style="width: 250px;margin: 0 auto;">
-                <ejs-combobox id='games'  #local [cssClass]='cssClass' [dataSource]='sportsData' [autofill]='true' [fields]='localFields' [placeholder]='localWaterMark'
-                    [popupHeight]='height'></ejs-combobox>
+        <div class="control-section">
+            <div class="col-lg-9 content-wrapper">
+                <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
+                    <div style="width: 250px;margin: 0 auto;">
+                        <ejs-dropdownlist id='games1' [cssClass]='cssClass' [dataSource]='sportsData' [fields]='localFields' [placeholder]='localWaterMark'
+                                          [popupHeight]='height'></ejs-dropdownlist>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="control-section">
+            <div class="col-lg-9 content-wrapper">
+                <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
+                    <div style="width: 250px;margin: 0 auto;">
+                        <ejs-datepicker  [cssClass]='cssClass'></ejs-datepicker>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  dir="rtl"  class="flex-1 ...">
+        Right To Left
+        المشروع
     </div>
 </div>
 
-<div class="control-section">
-    <div class="col-lg-9 content-wrapper">
-        <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
-            <div style="width: 250px;margin: 0 auto;">
-                <ejs-dropdownlist id='games1' [cssClass]='cssClass' [dataSource]='sportsData' [fields]='localFields' [placeholder]='localWaterMark'
-                    [popupHeight]='height'></ejs-dropdownlist>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="control-section">
-    <div class="col-lg-9 content-wrapper">
-        <div id='local' class='col-lg-6' style="margin: 0 auto;padding-top: 15px;">
-            <div style="width: 250px;margin: 0 auto;">
-                <ejs-datepicker  [cssClass]='cssClass'></ejs-datepicker>
-            </div>
-        </div>
-    </div>
-</div>
